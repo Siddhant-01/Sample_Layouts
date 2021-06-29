@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+
+
+
+
+	<style type="text/css">
+
+
+.b{
+	display: none;
+}
+
+ul{
+	list-style: none;
+	box-shadow: 5px 10px 8px #111;
+	text-align: center;
+	justify-content: center;
+	padding: 0;
+	height: 250px;
+	width: 220px;
+}
+
+ul li{
+	padding: 16px;
+}
+
+ul li:hover{
+background: #ccc;
+}
+
+
+
+.str{
+display: block;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="a">
+	<button onclick="hbr()">Engineering Streams</button>
+	<div class="b" id="bac">
+	<ul>
+		<li>CSE</li>
+		<li>ECE</li>
+		<li>EEE</li>
+		<li>Mech</li>
+		<li>Civil</li>
+	</ul>
+	</div>
+	
+</div>
+
+
+
+
+<script type="text/javascript">
+
+function hbr(){
+	var ele = document.getElementById('bac');
+	ele.classList.add('str');
+}
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
