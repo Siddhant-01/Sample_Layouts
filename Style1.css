@@ -28,7 +28,7 @@
     transform: translateX(-50%);
     height: 4px;
     width: 100px;
-    background: #2ecc71;
+    background: #faed26;
     border-radius: 2px;
 }
 
@@ -74,7 +74,7 @@
     width: 0;
     height: 2px;
     border-radius: 0 2px 2px 0;
-    background-color: #2ecc71;
+    background-color: #faed26;
     transition: 0.3s ease;
 }
 
@@ -86,7 +86,7 @@
     width: 0;
     height: 2px;
     border-radius: 2px 0 0 2px;
-    background-color: #2ecc71;
+    background-color: #faed26;
     transition: 0.3s ease;
 }
 
@@ -125,6 +125,43 @@
 
 
 
+
+
+.ss2 h2{
+    padding-top: 50px;
+    color: #fff;
+
+}
+
+
+.ss2{
+    background: #333;
+    height: auto;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.ss2 table{  
+    color: #fff;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.ss2 table tr{
+    justify-content: center;
+    align-items: center;
+       display: flex;
+    flex-wrap: wrap;
+}
+
+.ss2 table tr td{
+    padding: 40px;
+}
+
+
 @media screen and (max-width:990px)  {
     .container{
         grid-template-columns: repeat(2, 1fr);
@@ -134,9 +171,49 @@
 }
 
 
+@media screen and (max-width:760px)  {
+  
+    .ss2 table tr td{
+    padding: 20px;
+}
+
+
+
+}
+
+
 @media screen and (max-width:650px)  {
     .container{
         grid-template-columns: 1fr;
     }
     
 }
+
+
+@media screen and (max-width:600px)  {
+       .ss2 table tr td{
+    padding: 20px 100px 20px 20px;
+
+
+}
+    
+}
+
+
+@media screen and (max-width:570px)  {
+       .ss2 table tr td{
+    padding: 20px 80px 20px 20px;
+
+}
+}
+
+
+@media screen and (max-width:440px)  {
+       .ss2 table tr td{
+    padding: 20px 50px 20px 20px;
+
+
+}
+    
+}
+    
